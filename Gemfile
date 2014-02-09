@@ -15,6 +15,8 @@ gem "passenger"
 gem 'dalli' # memcache
 
 group :development do
+  gem 'capistrano', '~>2'
+  gem 'capistrano-ext'
   gem 'rerun'
   gem 'thin'
 end
