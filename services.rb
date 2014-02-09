@@ -22,7 +22,8 @@ configure do | sinatraApp |
   end
 end
 
-config_file 'config.yml'
+config_path = File.expand_path('../config.yml', __FILE__)
+config_file config_path
 
 $settings = settings
 
