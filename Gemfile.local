@@ -1,0 +1,1 @@
+gem 'citysdk_webservice_met_office', :git => 'https://github.com/foxdog-studios/citysdk-webservice-met-office'
