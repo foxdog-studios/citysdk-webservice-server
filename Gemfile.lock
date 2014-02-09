@@ -1,18 +1,10 @@
-PATH
-  remote: ../citysdk-webservice-met-office
-  specs:
-    citysdk_webservice_met_office (0.0.1)
-      metoffice_datapoint (~> 0.0.2)
-      sinatra (~> 1.4.4)
-
 GEM
   remote: https://rubygems.org/
   specs:
     active_support (3.0.0)
       activesupport (= 3.0.0)
     activesupport (3.0.0)
-    addressable (2.3.5)
-    backports (3.4.0)
+    backports (3.5.0)
     capistrano (2.15.5)
       highline
       net-scp (>= 1.0.0)
@@ -28,19 +20,12 @@ GEM
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.3)
-    hashie (2.0.5)
     highline (1.6.20)
     i18n (0.6.9)
     listen (1.0.3)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
-    metoffice_datapoint (0.0.2)
-      addressable (~> 2.3.4)
-      hashie (~> 2.0.5)
-      oj (~> 2.0.14)
-      rest-client (~> 1.6.7)
-    mime-types (2.1)
     multi_json (1.8.4)
     multipart-post (2.0.0)
     net-scp (1.1.2)
@@ -50,7 +35,6 @@ GEM
     net-ssh (2.8.0)
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
-    oj (2.0.14)
     passenger (4.0.37)
       daemon_controller (>= 1.1.0)
       rack
@@ -68,8 +52,6 @@ GEM
       ffi (>= 0.5.0)
     rerun (0.8.2)
       listen (~> 1.0.3)
-    rest-client (1.6.7)
-      mime-types (>= 1.16)
     rgeo (0.3.20)
     rgeo-geojson (0.2.3)
       rgeo (>= 0.3.7)
@@ -99,7 +81,6 @@ DEPENDENCIES
   active_support
   capistrano (~> 2)
   capistrano-ext
-  citysdk_webservice_met_office!
   dalli
   faraday
   i18n

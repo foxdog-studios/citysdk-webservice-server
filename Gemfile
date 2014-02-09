@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '1.9.3'
 
-#ruby-gemset=citysdk-webservice-server
+#ruby-gemset=citysdk
 
 gem "sinatra", :require => "sinatra/base"
 gem 'sinatra-config-file'
