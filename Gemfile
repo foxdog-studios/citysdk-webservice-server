@@ -7,7 +7,7 @@ ruby '1.9.3'
 gem "sinatra", :require => "sinatra/base"
 gem 'sinatra-config-file'
 gem "i18n"
-gem "active_support"
+gem "activesupport"
 gem "faraday"
 gem "rgeo"
 gem "rgeo-geojson"
