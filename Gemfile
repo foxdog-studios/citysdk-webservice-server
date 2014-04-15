@@ -3,15 +3,14 @@ source 'https://rubygems.org'
 ruby '2.1.1'
 #ruby-gemset=citysdk
 
-gem 'sinatra', require: 'sinatra/base'
-gem 'sinatra-config-file'
-gem 'i18n'
 gem 'activesupport'
+gem 'dalli' # memcache
 gem 'faraday'
+gem 'i18n'
 gem 'rgeo'
 gem 'rgeo-geojson'
-gem 'passenger'
-gem 'dalli' # memcache
+gem 'sinatra', require: 'sinatra/base'
+gem 'sinatra-config-file'
 
 group :development do
   gem 'capistrano', '~>2'
