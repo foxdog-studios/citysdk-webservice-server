@@ -1,18 +1,16 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
-
+ruby '2.1.1'
 #ruby-gemset=citysdk
 
-gem "sinatra", :require => "sinatra/base"
-gem 'sinatra-config-file'
-gem "i18n"
-gem "activesupport"
-gem "faraday"
-gem "rgeo"
-gem "rgeo-geojson"
-gem "passenger"
+gem 'activesupport'
 gem 'dalli' # memcache
+gem 'faraday'
+gem 'i18n'
+gem 'rgeo'
+gem 'rgeo-geojson'
+gem 'sinatra', require: 'sinatra/base'
+gem 'sinatra-config-file'
 
 group :development do
   gem 'capistrano', '~>2'
