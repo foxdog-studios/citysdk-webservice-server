@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 $LOAD_PATH.unshift File.dirname(__FILE__)
-require 'active_support/core_ext'
+require 'active_support'
 require 'faraday'
 require 'sinatra'
 require "sinatra/config_file"
